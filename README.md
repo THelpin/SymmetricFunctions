@@ -13,13 +13,10 @@ Author: Thomas Helpin. Affilated to the Institut Denis Poisson (France).
 ****************************************
 
 
-When uncompressed, the archive files give a number of files hanging
-from a directory called SymmetricFunctions/. This directory must be placed at
-(or linked from) one of the places Mathematica prepares for external
-applications. You can find the actual paths in your Mathematica
-installation in the variables $BaseDirectory and $UserBaseDirectory.
-You need the Applications/ subdirectory (or subfolder) of those
-returned by those variables.
+After extracting the archive, you'll find multiple files contained within a directory named SymmetricFunctions-$BranchName/. 
+Rename this directory to SymmetricFunctions/ and place it in a location where Mathematica looks for external packages. 
+To find these locations, check the values of $BaseDirectory and $UserBaseDirectory in your Mathematica installation. 
+Specifically, you'll need to move the renamed directory into the Applications/ subdirectory of either of these paths.
 
 For Wolfram Language versions before 14.1 use Mathematica instead of
 Wolfram in the following links.
